@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(227, 233, 255);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.listContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px;
+
+}
+.todoHeader {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background: #af7eeab9;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+  -webkit-box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+  -moz-box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+}
+.todoData {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+  -webkit-box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+  -moz-box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+}
+.todoItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.checkDescription {
+  width: fit-content;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+}
+.todoCheck {
+  margin-right: 20px;
+}
+
+.deleteIcon {
+  width: 13px;
+  color: #b7bac9;
+}
+.checkCircle {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid #b7bac9;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkCircle:checked {
+  background-color: #af7eeab9;
+}
+.todoDescription {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #b7bac9;
+  overflow-wrap: anywhere;
+}
+
+.addBtnContainer {
+  margin: -15px auto 0px auto;
+  height: 30px;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background: #af7eea;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.addBtnContainer:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#af7eea;
+}
+.titleContainer{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+}
+.title{
+    margin: auto;
+}

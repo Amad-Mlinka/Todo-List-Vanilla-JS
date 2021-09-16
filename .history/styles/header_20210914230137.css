@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.titleContainer{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+}
+.title{
+    margin: auto;
+}

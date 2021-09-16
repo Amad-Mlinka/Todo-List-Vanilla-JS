@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(227, 233, 255);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.listContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 30px;
+}
+.todoHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background: #af7eeab9;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 10px;
+}
+.todoData {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  box-shadow:         0px 1px 6px 0px rgb(0 0 0 / 12%);
+  -webkit-box-shadow: 0px 1px 6px 0px rgb(0 0 0 / 12%);
+  -moz-box-shadow:    0px 1px 6px 0px rgb(0 0 0 / 12%);
+}
+.todoItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.checkDescription {
+  width: 66%;
+  display: flex;
+  align-items: center;
+}
+.todoCheck {
+  margin-right: 15px;
+}
+
+.deleteIcon {
+  width: 13px;
+  color: #b7bac9;
+}
+.checkCircle {
+  height:10px;
+  width: 10px;
+  background-color: transparent;
+  border: 1px solid #b7bac9;
+  border-radius: 50%;
+  display: inline-block;
+}
+.todoDescription {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #b7bac9;
+}

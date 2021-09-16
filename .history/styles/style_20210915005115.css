@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: RGB(227, 233, 255)
+}
+.container{
+  width: 75%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.todoItem{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.deleteIcon{
+  width: 20px;
+}
+.checkCircle{
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
